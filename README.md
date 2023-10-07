@@ -44,7 +44,7 @@ This Python script automates the grading process for the Heroes API spike tests,
     python evaluate_tests.py
     ```
 
-    Replace `name_of_the_script.py` with the actual name of the Python script if you've renamed it.
+    Replace `evaluate_tests.py` with the actual name of the Python script if you've renamed it.
 
 3. **Interpreting Results**:
     - After the script finishes execution, a `test_results.txt` file will be created in the same directory. This file contains the grading results for each student.
