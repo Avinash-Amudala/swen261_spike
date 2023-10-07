@@ -18,11 +18,6 @@ While grading, an important observation was made regarding the spike assignment 
 
 ## Usage of the Script
 
-This script was created to automate the grading process, considering the specific test anomaly mentioned above. To use the script, follow the instructions below:
-
-```bash
-## Usage of the Script
-
 This Python script automates the grading process for the Heroes API spike tests, considering the specific test anomaly mentioned earlier. The script will unzip and test each student's project, excluding the `HeroControllerTest#testCreateHeroFailed` test, and then compile the results.
 
 ### Prerequisites:
