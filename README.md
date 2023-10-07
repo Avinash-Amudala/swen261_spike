@@ -21,4 +21,40 @@ While grading, an important observation was made regarding the spike assignment 
 This script was created to automate the grading process, considering the specific test anomaly mentioned above. To use the script, follow the instructions below:
 
 ```bash
-# To be added based on the script's specifics
+## Usage of the Script
+
+This Python script automates the grading process for the Heroes API spike tests, considering the specific test anomaly mentioned earlier. The script will unzip and test each student's project, excluding the `HeroControllerTest#testCreateHeroFailed` test, and then compile the results.
+
+### Prerequisites:
+1. Ensure you have `Python` installed on your machine.
+2. Ensure you have `Maven` (`mvn`) installed as the script utilizes it for testing.
+3. The script assumes that students' projects are submitted as `.zip` files with a specific naming convention (last name and first name present in the file name).
+
+### Instructions:
+
+1. **Setting up the Directory**:
+    - Place the script in a directory of your choice.
+    - Modify the `TEMP_DIR` variable in the script to point to the directory where you've stored the students' `.zip` files. 
+
+    ```python
+    TEMP_DIR = "/path/to/your/directory"
+    ```
+
+2. **Running the Script**:
+    - Open a terminal or command prompt.
+    - Navigate to the directory containing the script.
+    - Execute the script by running:
+
+    ```bash
+    python name_of_the_script.py
+    ```
+
+    Replace `name_of_the_script.py` with the actual name of the Python script if you've renamed it.
+
+3. **Interpreting Results**:
+    - After the script finishes execution, a `test_results.txt` file will be created in the same directory. This file contains the grading results for each student.
+    - In case of any debug information or errors, refer to the `debug_output.txt` file.
+
+4. **Cleaning Up**:
+    - The script creates a temporary directory for each student's project within the `TEMP_DIR`. You can safely remove these directories after reviewing the results, if desired.
+
