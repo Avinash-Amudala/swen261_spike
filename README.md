@@ -41,7 +41,7 @@ This Python script automates the grading process for the Heroes API spike tests,
     - Execute the script by running:
 
     ```bash
-    python name_of_the_script.py
+    python evaluate_tests.py
     ```
 
     Replace `name_of_the_script.py` with the actual name of the Python script if you've renamed it.
